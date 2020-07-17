@@ -62,6 +62,13 @@ function myfunction() {
         var monthcode = 5
     }
 
+    else {
+
+        document.getElementById(`end`).innerHTML = `All fields are required!`
+        document.getElementById(`end`).style.color = `red`
+
+    }
+
 
 
     // finding the year of birth
@@ -124,7 +131,7 @@ function myfunction() {
             var name = `Kwame`
         }
     }
-    else {
+    else if (gender == `female`) {
         if (dayOfWeek == `Sunday`) {
             var name = `Akosua`
         }
@@ -154,12 +161,16 @@ function myfunction() {
         }
     }
 
- document.getElementById(`name`).innerHTML = 
- `Your ghananian name is ${name}`
- 
- document.getElementById(`dayOfWeek`).innerHTML = 
- `You were born on a : ${dayOfWeek}
- 
- 
+    else {
+        document.getElementById(`end`).innerHTML = `All fields are required!`
+        document.getElementById(`end`).style.color = `red`
+    }
+
+    if (document.getElementById(`end`).innerHTML != `All fields are required!`){
+        document.getElementById(`end`).innerHTML = `Your Akan name is ${name}`
+    }
+
+
+
 
 }
