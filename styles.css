@@ -53,3 +53,16 @@ button{
     width: 5%;
     height: 20px;
 }
+
+.namingpage{
+    background-image: url(./Images/naming\ page\ background.jpg);
+    background-size: 120% 120%;
+    background-position: center center;
+    height: 669px;
+    text-align: center;
+}
+
+.namingpage p{
+position: relative;
+padding: 20%;
+}
