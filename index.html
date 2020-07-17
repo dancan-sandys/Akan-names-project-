@@ -25,15 +25,25 @@
             </ul>
         </nav>
         <h1 id="nameOfProject">Akan Namer</h1>
+        <p id="description">
+            African names are very interesting but not easy to assign.
+            Filling the form bellow provides you an easier way to attain your Akan
+            name from your date of birth. Akan names are of ghananian origin and are given acording
+            to the day of week of birth.
+        </p>
 
-        <p id="end">Want to know your African Akan name!.Fill in you details below</p>
+        <p id="end">Fill in the form to obtain your Akan name.</p>
 
         <div id="form">
 
             <div class="form">
 
                 <input type="date" id="date">
-                <input type="text" id="gender">
+                    <select id="gender">
+                    <option>select your gender</option>
+                    <option>male</option>
+                    <option>female</option>
+                </select>
                 <button onclick="myfunction()">Submit</button>
                 <p id="name"></p>
                 <p id="dayOfWeek"></p>

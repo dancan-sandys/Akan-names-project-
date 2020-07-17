@@ -4,9 +4,6 @@ function myfunction() {
     //retrieve the date of birth from the user
     var dateOfBirth = document.getElementById(`date`).value
 
-    //retrieve the date of birth from the user
-    var dateOfBirth = document.getElementById(`date`).value
-
     // calculation of day of month the person is bone
     var day = parseInt(dateOfBirth.slice(8, 10));
 
@@ -166,11 +163,16 @@ function myfunction() {
         document.getElementById(`end`).style.color = `red`
     }
 
-    if (document.getElementById(`end`).innerHTML != `All fields are required!`){
+    if (day!=`` && month!=`` && century!=`` && year!==`` && gender!=`select your gender`){
         document.getElementById(`end`).innerHTML = `Your Akan name is ${name}`
+        document.getElementById(`end`).style.color = `green`
+
     }
 
+    else{
+        alert(`All fields are required!`)
 
+    }
 
 
 }
