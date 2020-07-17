@@ -92,6 +92,38 @@ var daysOfWeek = [`Sunday`,`Monday`, `Teusday`, `Wednessday`, `Thursday`, `Frida
 
 var dayOfWeek = (daysOfWeek[indexOfDay]);
 
- alert(dayOfWeek);
+ 
 
+ var gender = document.getElementById(`gender`).value
+if (gender == `male`){
+    if (dayOfWeek== `Sunday`){
+        var name = `Kwasi`
+    }
+
+    else if (dayOfWeek== `Monday`){
+        var name = `Kwadwo`
+    }
+
+    else if (dayOfWeek== `Tuesday`){
+        var name = `Kwabena`
+    }
+
+    else if (dayOfWeek== `Wednessday`){
+        var name = `Kwaku`
+    }
+
+    else if (dayOfWeek== `Thursday`){
+        var name = `Yaw`
+    }
+
+    else if (dayOfWeek== `Friday`){
+        var name = `Kofi`
+    }
+
+    else{
+        var name = `Kwame`
+    }
+}
+
+alert(dayOfWeek);
 }
