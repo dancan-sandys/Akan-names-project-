@@ -70,9 +70,19 @@ padding: 20%;
 footer{
     text-align: center;
     width: 100%;
+    margin-top: 15%;
 }
 
 footer a{
     color: black;
     
+    
+}
+
+.aboutUsPage{
+    background-color:#B3E4E4;
+    padding: 5%;
+}
+.row{
+    justify-content: space-between;
 }
