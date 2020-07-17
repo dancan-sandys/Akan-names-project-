@@ -84,6 +84,14 @@ else if (century%4 ===2){
      var centuryCode = 0
  }
  
- alert(centuryCode);
+ //calculating the day of week
+
+var indexOfDay = ((year + Math.floor(year/4) + monthcode +centuryCode + day) %7);
+
+var daysOfWeek = [`Sunday`,`Monday`, `Teusday`, `Wednessday`, `Thursday`, `Friday`, `Saturday`]
+
+var dayOfWeek = (daysOfWeek[indexOfDay]);
+
+ alert(dayOfWeek);
 
 }
