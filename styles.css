@@ -6,6 +6,12 @@ body{
     width: 100%;
     margin-top: 0;
 }
+#landingPage{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    color: white;
+}
 
 nav ul{
     display: flex;
@@ -16,11 +22,15 @@ nav ul{
 }
 #nameOfProject{
     text-align: center;
-    
+    color: white;
 }
-.backgroundImage img {
-    position: absolute;
-    height:100%;
+.backgroundImage{
+    background-image: url(./Images/landing\ page\ background.jpg);
+    background-position: center center;
+    background-size: 100% 200%;
+    position: relative;
+    width: 100%;
+    height: 669px;
 }
  #end{
     text-align: center;
