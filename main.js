@@ -1,9 +1,10 @@
 function myfunction(){
 
 
-    //retrieve the date of birth from the user
-        var dateOfBirth = document.getElementById(`date`).value
-        //retrieve the date of birth from the user
+//retrieve the date of birth from the user
+ var dateOfBirth = document.getElementById(`date`).value
+
+//retrieve the date of birth from the user
 var dateOfBirth = document.getElementById(`date`).value
 
 // calculation of day of month the person is bone
@@ -60,5 +61,7 @@ if (month == 01){
     else if (month == 12){
         var monthcode = 5
     }
+
+    alert(monthcode);
 
 }
