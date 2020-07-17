@@ -62,6 +62,28 @@ if (month == 01){
         var monthcode = 5
     }
 
-    alert(monthcode);
+  
+
+// finding the year of birth
+var year = parseInt(dateOfBirth.slice(2,4));
+
+//finding the century of birth and calculating century codes
+var century = parseInt(dateOfBirth.slice(0,2));
+if(century%4 === 0){
+    var centuryCode =6
+}
+
+else if (century%4===1){
+    var centuryCode=4
+}
+
+else if (century%4 ===2){
+    var centuryCode =2
+}
+ else {
+     var centuryCode = 0
+ }
+ 
+ alert(centuryCode);
 
 }
