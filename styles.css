@@ -1,9 +1,32 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
 nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 5% 5%;
+    padding: 5%;
+    color: white;
 }
 #nameOfProject{
     text-align: center;
+    color: white;
+}
+#landingPage{
+    background-image:url(./Images/landing\ page\ background.jpg);
+    background-position: center center;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    width: 100%;
+    
+}
+#end{
+    padding: 18% 0%;
 }
