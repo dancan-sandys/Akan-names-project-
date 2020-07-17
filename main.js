@@ -124,6 +124,34 @@ if (gender == `male`){
         var name = `Kwame`
     }
 }
+else{
+    if (dayOfWeek== `Sunday`){
+        var name = `Akosua`
+    }
 
+    else if (dayOfWeek== `Monday`){
+        var name = `Adwoa`
+    }
+
+    else if (dayOfWeek== `Tuesday`){
+        var name = `Abenaa`
+    }
+
+    else if (dayOfWeek== `Wednessday`){
+        var name = `Akua`
+    }
+
+    else if (dayOfWeek== `Thursday`){
+        var name = `Yaa`
+    }
+
+    else if (dayOfWeek== `Friday`){
+        var name = `Afua`
+    }
+
+    else{
+        var name = `Ama`
+    }
+}
 alert(dayOfWeek);
 }
