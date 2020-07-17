@@ -66,3 +66,13 @@ button{
 position: relative;
 padding: 20%;
 }
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+footer a{
+    color: black;
+    
+}
