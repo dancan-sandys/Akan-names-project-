@@ -67,13 +67,14 @@ function myfunction() {
 
         else {
 
-            document.getElementById(`end`).innerHTML = `All fields are required!`
-            document.getElementById(`end`).style.color = `red`
+            document.getElementById(`namingfield`).innerHTML = `All fields are required!`
+            document.getElementById(`namingfield`).style.color = `red`
 
         }
 
 
     //
+
 
     // finding the year of birth
     
@@ -149,6 +150,7 @@ function myfunction() {
             }
         }
     //
+
     
     // naming of females
 
@@ -184,21 +186,23 @@ function myfunction() {
 
     //
 
+
     //checking if the form is filled appropriately
 
         else {
-            document.getElementById(`end`).innerHTML = `All fields are required!`
-            document.getElementById(`end`).style.color = `white`
-            document.getElementById(`end`).style.backgroundColor =`red`
+            document.getElementById(`namingfield`).innerHTML = `All fields are required!`
+            document.getElementById(`namingfield`).style.color = `white`
+            document.getElementById(`namingfield`).style.backgroundColor =`red`
         
         }
     //
 
+    
     //naming
         if (day!=`` && month!=`` && century!=`` && year!==`` && gender!=`select your gender`){
-            document.getElementById(`end`).innerHTML = `Your Akan name is ${name}`
-            document.getElementById(`end`).style.color = `green`
-            document.getElementById(`end`).style.backgroundColor =`black`
+            document.getElementById(`namingfield`).innerHTML = `Your Akan name is ${name}`
+            document.getElementById(`namingfield`).style.color = `green`
+            document.getElementById(`namingfield`).style.backgroundColor =`black`
         
 
         }
