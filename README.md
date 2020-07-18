@@ -1,10 +1,15 @@
 # Akan Naming Site
+
 ####  It enables you to access your Akan name using your gender and date of birth
+
 ### dated on:
 07/18/2020
+
 #### By **Dancan Sandys Oruko**
+
 ## Description
 This site contains a form for filling out your gender and date of birth and returns your Akan name after submition
+
 ## live link
 Here is a live link to the site: https://dancan-sandys.github.io/Akan-names-project-/
 
@@ -14,11 +19,16 @@ Ensure you fill the date and gender details appropriately then just Submit and w
 ## BDD
 
 |Input | Behaviour | Output|
+
 |------|-----------|-------|
-|User opens site| the site runs the index.html| User sees the landing page and the form|
-|User clicks submit without filling the form| The Javascript function"myFunction" detects that the form is not filled| the user is alerted to fill the form appropriately|
+
+|User opens site| The site runs the index.html| User sees the landing page and the form|
+
+|User clicks submit without filling the form| The Javascript function "myFunction" detects that the form is not filled| The user is alerted to fill the form appropriately|
+
 |User fails to fill one field approriately|Javascript function detects that|User is alerted to fill the form appropriately|
-|User fills all the field appropriately|javascript calls in 'myfunction'|User's Akan name is displayed|
+
+|User fills all the field appropriately|`myfunction` is called to display Akan name on HTML|User's Akan name is displayed|
  
 
 
