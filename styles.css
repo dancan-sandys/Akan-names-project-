@@ -54,8 +54,12 @@ nav ul{
  #end{
      position: relative;
      bottom: 10%;
+     border-radius: 40px;
+     margin: 3% 39%;
+     align-items: center;
+     bottom: 10%;
     text-align: center;
-    padding-top: 4%;
+    padding: 1%;
 } 
 .form{
     text-align: center;
@@ -145,6 +149,7 @@ button{
     padding-bottom: 2%;
     width: 8%;
     border-radius: 67px;
+    height: 30px;
 }
 
 input{

@@ -160,12 +160,16 @@ function myfunction() {
 
     else {
         document.getElementById(`end`).innerHTML = `All fields are required!`
-        document.getElementById(`end`).style.color = `red`
+        document.getElementById(`end`).style.color = `white`
+        document.getElementById(`end`).style.backgroundColor =`red`
+       
     }
 
     if (day!=`` && month!=`` && century!=`` && year!==`` && gender!=`select your gender`){
         document.getElementById(`end`).innerHTML = `Your Akan name is ${name}`
         document.getElementById(`end`).style.color = `green`
+        document.getElementById(`end`).style.backgroundColor =`black`
+       
 
     }
 
