@@ -7,7 +7,7 @@
         color: white;
         background-color: black;
         opacity: 0.8;
-        height: 140%;
+        height: 100%;
     }
 
 
@@ -37,10 +37,10 @@ nav ul{
 .backgroundImage{
     background-image: url(./Images/landing\ page\ background.jpg);
     background-position: center center;
-    background-size: 100% 200%;
+    background-size: 100% 180%;
     position: relative;
     width: 100%;
-    height: 669px;
+    height:470px;
 }
  #end{
     text-align: center;
@@ -81,18 +81,6 @@ button{
     background-color: green;
 }
 
-.namingpage{
-    background-image: url(./Images/naming\ page\ background.jpg);
-    background-size: 120% 120%;
-    background-position: center center;
-    height: 669px;
-    text-align: center;
-}
-
-.namingpage p{
-position: relative;
-padding: 20%;
-}
 
 footer{
     text-align: center;
@@ -111,6 +99,7 @@ footer a{
     background-color:#B3E4E4;
     padding: 5%;
     width: 101%;
+    height: 100%;
 }
 .row{
     justify-content: space-between;
@@ -121,13 +110,24 @@ footer a{
     text-align: center;
 }
 
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+ color: green;
+ text-decoration: none;
+}
+
+
 @media screen and (min-width:1000px){
 .landingPage{
     width: 100%;
     height: 102.5%;
-   }
-   
-   button{
+}
+
+
+button{
     width: 8%;
 }
 
@@ -136,12 +136,20 @@ input{
 }
 
 select{
-    width: 50%;
+    width: 18%;
 }
 
 #description{
-    margin: 0 35%;
-    width: 31%;
+    margin: 0 25%;
+    width: 50%;
+}
+.backgroundImage{
+    background-image: url(./Images/landing\ page\ background.jpg);
+    background-position: center center;
+    background-size: 100% 200%;
+    position: relative;
+    width: 100%;
+    height:685px;
 }
 
 }
