@@ -1,4 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+#nameOfProject{
+    text-align: center;
+    font-weight: 900;
+    font-size: 72px;
+    position: relative;
+    bottom: 10%;
+    color: green;
+}
     .landingPage{
         position: absolute;
         top: 0%;
@@ -21,6 +31,8 @@ body{
     margin-top: 0;
     overflow-x: hidden;
     background-color: #B3E4E4;
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
 }
 
 nav ul{
@@ -30,10 +42,7 @@ nav ul{
     padding: 5%;
 
 }
-#nameOfProject{
-    text-align: center;
-    color: white;
-}
+
 .backgroundImage{
     background-image: url(./Images/landing\ page\ background.jpg);
     background-position: center center;
