@@ -201,8 +201,8 @@ function myfunction() {
     //naming
         if (day!=`` && month!=`` && century!=`` && year!==`` && gender!=`select your gender`){
             document.getElementById(`namingfield`).innerHTML = `Your Akan name is ${name}`
-            document.getElementById(`namingfield`).style.color = `green`
-            document.getElementById(`namingfield`).style.backgroundColor =`black`
+            document.getElementById(`namingfield`).style.color = `white`
+            document.getElementById(`namingfield`).style.backgroundColor =`green`
         
 
         }

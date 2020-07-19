@@ -23,7 +23,7 @@ Ensure you fill the date and gender details appropriately then just Submit and w
 |User opens site| The site runs the index.html| User sees the landing page and the form|
 |User clicks submit without filling the form| The Javascript function "myFunction" detects that the form is not filled| The user is alerted to fill the form appropriately|
 |User fails to fill one field approriately|Javascript function detects that|User is alerted to fill the form appropriately|
-|User fills all the field appropriately| "myfunction" is called to display Akan name on HTML|User's Akan name is displayed|
+|User fills all the field appropriately| "myfunction" is called to display Akan name on HTML|User is able to view Akan name|
  
 
 
@@ -37,6 +37,6 @@ Ensure you fill the date and gender details appropriately then just Submit and w
 Incase of any issues using the site please contact: +254701824796 or dancan.oruko96@gmail.com
 
 ### License
-*The webapp is compatible with all devices and all OS's, consistent improvements are being made*
+*The webapp is compatible with all devices and all OS's. Consistent improvements are being made*
 
 Copyright (c) 2020 **Dancan Sandys Oruko**

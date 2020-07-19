@@ -110,6 +110,7 @@ button{
     text-align: center;
     align-items: center;
     border-radius: 20px;
+    color: white;
     background-color: green;
 }
 
