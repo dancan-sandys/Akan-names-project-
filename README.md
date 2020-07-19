@@ -19,11 +19,8 @@ Ensure you fill the date and gender details appropriately then just Submit and w
 ## BDD
 
 |Input | Behaviour | Output|
-
 |------|-----------|-------|
-
 |User opens site| The site runs the index.html| User sees the landing page and the form|
-
 |User clicks submit without filling the form| The Javascript function "myFunction" detects that the form is not filled| The user is alerted to fill the form appropriately|
 
 |User fails to fill one field approriately|Javascript function detects that|User is alerted to fill the form appropriately|
